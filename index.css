@@ -17,6 +17,14 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
+}
+
+.version {
+    opacity: 0.5;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 .all {
@@ -196,4 +204,20 @@ a {
 .footer img {
     width: 200px;
     opacity: 0.25;
+}
+
+@media (max-width: 767px) {
+    #blankMobileSection {
+        display: none;
+    }
+    .all section {
+        width: 100vw;
+    }
+
+    .about {
+        text-align: center;
+    }
+    #sentence {
+        height: 75px;
+    }
 }
