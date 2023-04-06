@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Random Sentence Generator</title>
+</head>
+
+<body>
+    <span>BETA v0.01</span>
+    <div class="all">
+        <section>
+
+        </section>
+        <section>
+            <h1>Random Sentence Generator</h1>
+            <p id="sentence" class="sentence">Click "Generate" to generate a sentence</p>
+
+            <div class="generate-button-container">
+                <div class="generate-button" onclick="generate()">
+                    <span>Generate</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Settings</h2>
+            <div class="center" style="margin-top: 50px;">
+                <div>
+                    <span>Times Generated: </span><span id="generated">-</span><br>
+                </div>
+
+                <div class="slider-container">
+                    <div>
+                        <span>Animation Speed: </span><span id="animValue">1.0</span>
+                    </div>
+                    <input class="slider" id="slider" type="range" min="0" max="2" value="1.0" step="0.1">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="about">
+        <div>
+            <span>This is based on the </span><a>Anything Bot </a><span>on twitter. Check them out </span><a href="https://twitter.com/anythingbott"
+                target="_blank">Here.</a>
+        </div>
+        <div>
+            <span>If you want to request a Character, Object, or Sentence notify me on twitter
+                <a href="https://twitter.com/notdebread" target="_blank">@notdebread</a>
+            </span>
+        </div>
+    </div>
+
+    <a class="footer" href="https://debread.space" target="_blank">
+        <img src="media/LogoFixedWhite.png">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
